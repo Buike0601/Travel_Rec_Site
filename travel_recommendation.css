@@ -1,4 +1,30 @@
-#nav {
+body {
+    
+}
+
+#nav-cent {
+    background-color: cornflowerblue; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#search-button{
+
+}
+
+#reset-button {
+
+}
+
+#home {
 
 }
 
