@@ -1,6 +1,6 @@
-//search bar
+//search button
 
 //clear button
 
-//API call using fetch
+//create divs that pull info from API call using fetch
 
