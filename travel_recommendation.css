@@ -129,9 +129,8 @@ section{
     height: 70vh;
     text-align: center;
     border-radius: 50px;;
-    /* margin-left: 250px; */
-    /* margin-right: 250px; */
-    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .Home div {
@@ -156,6 +155,24 @@ section{
     color: rgb(240, 183, 26);
 }
 
+
+.search-output {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.349);
+    color: rgb(240, 183, 26);
+    padding: 20px;
+    border-radius: 50px;;
+    margin-top: 20px; */
+}
+
+
+
+
+
+
 .About {
     display: flex;
     background-color: rgba(255, 255, 255, 0.349);
@@ -165,8 +182,6 @@ section{
     height: auto;
     text-align: center;
     border-radius: 50px;;
-    /* margin-left: 250px; */
-    /* margin-right: 250px; */
     padding: 50px;
 }
 
@@ -186,11 +201,8 @@ section{
     color: rgb(240, 183, 26);
     flex-direction: column;
     align-items: flex-start;
-    /* text-align: center; */
     height: auto;
     border-radius: 50px;;
-    /* margin-left: 250px; */
-    /* margin-right: 250px; */
     padding: 50px;
 }
 
