@@ -2,6 +2,7 @@ document.getElementById("search-button").addEventListener("click", travelSearch)
 document.getElementById("search-bar").addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
         travelSearch();
+
     }
 });
 
