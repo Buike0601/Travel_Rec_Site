@@ -29,8 +29,6 @@ async function travelSearch() {
     const data = await dataFetched();
 
     console.log("Search input:", searchInput);
-    // searchOutput.innerHTML = '';
-    // Check if the input is empty
     if (searchInput.trim() === "") {
         alert("Please enter a destination.");
         return;
