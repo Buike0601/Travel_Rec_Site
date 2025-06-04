@@ -68,7 +68,7 @@ async function travelSearch() {
         });
     });
 
-    console.log("All destinations:", allDest);
+    // console.log("All destinations:", allDest);
 
     if (searchInput.includes('country' || 'countries')) {
         foundDest = allDest.filter(place => place.type === 'city')
