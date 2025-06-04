@@ -26,6 +26,7 @@ async function dataFetched() {
 
 async function travelSearch() {
     const searchInput = document.getElementById("search-bar").value.toLowerCase().trim();
+    searchOutput.innerHTML = '';
     const data = await dataFetched();
 
     console.log("Search input:", searchInput);
